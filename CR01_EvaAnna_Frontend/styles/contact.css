@@ -1,0 +1,53 @@
+.main {
+    margin: 4rem auto;
+    width: 80%;
+}
+
+.main__row__col__25--left {
+  float: left;
+  width: 25%;
+  margin-top: 0.6rem;
+}
+
+.main__row__col__75--right {
+  float: right;
+  width: 75%;
+  margin-top: 6px;
+}
+
+label {
+  padding: 1.2rem 1.2rem 1.2rem 0;
+  font-size: 1.6rem;
+  display: inline-block;
+}
+
+.main__row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+input[type="submit"] {
+  background-color: #C65252;
+  color: white;
+  padding: 1.2rem 2rem;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  float: right;
+}
+
+input[type="submit"]:hover {
+  background-color: #4caf50;
+}
+
+input[type="text"],
+input[type="password"], 
+input[type="textarea"] {
+  width: 100%;
+  padding: 1.2rem;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.4rem;
+  resize: vertical;
+}
+
